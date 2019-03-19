@@ -1,0 +1,71 @@
+header
+{
+    font-family: "Times New Roman", serif;
+}
+hr
+{
+    border-width:5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+h1
+{
+    font-family: "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+p
+{
+    font-family: "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainimg
+{
+    box-shadow: rgba(0,0,0,0.3) 8px 8px;
+    align-items: center;
+    justify-content: flex-start;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body
+{
+    margin:8px;
+}
+
+.projectimg #1
+{
+    display: inline;
+    padding: 0 2px 0 55px;
+}
+.projectimg #2
+{
+    padding: 0 10px 0 55px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projectimg #3
+{
+    display: inline;
+    padding: 0 5px 0 45px;
+}
+footer a
+{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
