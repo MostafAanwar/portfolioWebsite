@@ -1,6 +1,15 @@
 function toggleDarkLight()
 {
-    var body = document.getElementById("body");
+    var body = document.getElementById("cls");
     var currentClass = body.className;
-    body.className = currentClass === "dark-mode" ? "light-mode" : "dark-mode";
+    currentClass === "dark-mode" ? lightMode() : darkMode();
+}
+function lightMode()
+{
+    document.getElementById('cls').className = "light-mode";
+}
+
+function darkMode()
+{
+    document.getElementById('cls').className = "dark-mode";
 }
