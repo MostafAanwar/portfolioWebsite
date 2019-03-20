@@ -63,9 +63,48 @@ body
     display: inline;
     padding: 0 5px 0 45px;
 }
+footer
+{
+    display: flex;
+    justify-content: center;
+}
 footer a
 {
+    padding: 0 10px;
     text-decoration: none;
     display: flex;
     justify-content: center;
+}
+@media screen  and (max-width: 1000px){
+    .mainimg
+    {
+        width: 430px;
+        height: 320px;
+    }
+}
+
+
+
+body.dark-mode {
+    background-color: #111;
+    color: #eee;
+}
+body.dark-mode a {
+    color: #111;
+}
+body.dark-mode button {
+    background-color: #eee;
+    color: #111;
+}
+
+body.light-mode {
+    background-color: #eee;
+    color: #111;
+}
+body.light-mode a {
+    color: #111;
+}
+body.light-mode button {
+    background-color: #111;
+    color: #eee;
 }
