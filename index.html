@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/script.js"></script>
 </head>
-<body class="light-mode" id ="cls">
+<body class="dark-mode" id ="cls">
 <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button>
 <img class="logo" src="img/fancypixel.jpg" alt="a pixel logo" height="100" width="100">
 <header>
@@ -19,18 +19,32 @@
 
 
 <h2>Featured Work</h2>
-<img class ="projectimg" id="1" src="https://s3.amazonaws.com/codecademy-content/projects/project_thumbnails/introduction-to-javascript/img_JS_magic8Ball.jpg" alt="a picture of Mostafa Anwar" height="320" width="430">
-<a class="" target="_blank" href="https://www.linkedin.com/in/mostafa-anwar/">linkedin</a>
-<img class ="projectimg" id="2" src="https://s3.amazonaws.com/codecademy-content/projects/project_thumbnails/introduction-to-javascript/img_JS_magic8Ball.jpg" alt="a picture of Mostafa Anwar" height="320" width="430">
-<a class="" target="_blank" href="https://www.linkedin.com/in/mostafa-anwar/">linkedin</a>
-<img class ="projectimg" id="3" src="https://s3.amazonaws.com/codecademy-content/projects/project_thumbnails/introduction-to-javascript/img_JS_magic8Ball.jpg" alt="a picture of Mostafa Anwar" height="320" width="430">
-<a class="" target="_blank" href="https://www.linkedin.com/in/mostafa-anwar/">linkedin</a>
+<div id="projects">
+    <a href="https://codepen.io/mostafa_anwar/pen/OwYGpN" target="_blank" class="project project-tile">
+        <img class="project-pic" src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="project">
+        <div class="project-title">Tribute Page</div>
+    </a>
+    <a href="https://codepen.io/mostafa_anwar/pen/PdQEVo" target="_blank" class="project project-tile">
+        <img class="project-pic" src="https://i.gyazo.com/8fb8c8c243adfd23c0ecd9f16f12d440.png" alt="project">
+        <div class="project-title">Visitor Counter</div>
+    </a>
+    <a href="https://github.com/MostafAanwar/DogYears" target="_blank" class="project project-tile">
+        <img class="project-pic" src="https://s3.amazonaws.com/codecademy-content/projects/project_thumbnails/introduction-to-javascript/img_JS_dogYears.jpg" alt="project">
+        <div class="project-title">Dog Years</div>
+    </a>
+    <a href="https://github.com/MostafAanwar/MagicEightBall" target="_blank" class="project project-tile">
+        <img class="project-pic" src="https://s3.amazonaws.com/codecademy-content/projects/project_thumbnails/introduction-to-javascript/img_JS_magic8Ball.jpg" alt="project">
+        <div class="project-title">Magic 8 Ball</div>
+    </a>
+
+</div>
+<hr>
 <footer>
-    <a class="profile-link" target="_blank" href="https://www.linkedin.com/in/mostafa-anwar/">linkedin</a>
-    &nbsp;
-    <a class="profile-link" target="_blank" href="https://codepen.io/mostafa_anwar/">Codepen</a>
-    &nbsp;
-    <a class="profile-link" target="_blank" href="https://github.com/MostafAanwar">GitHub</a>
+    <div id="profile">
+        <a class="profile-link"  target="_blank" href="https://www.linkedin.com/in/mostafa-anwar/"><img id="linkedin" src="img/dark-mode-linkedin.png" width="130" height="130"></a>
+        <a class="profile-link"  target="_blank" href="https://codepen.io/mostafa_anwar/"><img id="codepen" src="img/dark-mode-codepen.png" width="100" height="100"></a>
+        <a class="profile-link"  target="_blank" href="https://github.com/MostafAanwar"><img id="github" src="img/dark-mode-github.png" width="100" height="100"></a>
+    </div>
 </footer>
 </body>
 </html>
