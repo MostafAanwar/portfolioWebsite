@@ -38,6 +38,13 @@ p {
     margin-right: auto;
 }
 
+@media screen and (max-width: 760px) {
+    .aboutMe {
+        padding-left: 20px;
+        display: inline-block;
+    }
+}
+
 .aboutMe {
     padding-top: 20px;
 }
@@ -46,7 +53,6 @@ p {
     padding-top: 10px;
     padding-left: 50px;
     float: left;
-    box-shadow: rgba(0, 0, 0, 0.3) 8px 8px;
     display: block;
     margin-left: auto;
     margin-right: auto;
