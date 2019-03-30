@@ -16,10 +16,13 @@ h1 {
     display: flex;
     justify-content: center;
 }
-h2{
-    display:flex;
-    justify-content:center;
+
+h2 {
+    font-family: "Times New Roman", serif;
+    display: flex;
+    justify-content: center;
 }
+
 p {
     font-family: "Times New Roman", serif;
     font-size: 24px;
@@ -35,10 +38,15 @@ p {
     margin-right: auto;
 }
 
+.aboutMe {
+    padding-top: 20px;
+}
+
 .mainimg {
+    padding-top: 10px;
+    padding-left: 50px;
+    float: left;
     box-shadow: rgba(0, 0, 0, 0.3) 8px 8px;
-    align-items: center;
-    justify-content: flex-start;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -123,13 +131,12 @@ body.light-mode button {
     color: #eee;
 }
 
-
 body.dark-mode #projects {
     background-color: #111111;
 }
 
 #projects {
-    z-index: 1;
+    padding-top: 290px;
     background-color: #eeeeee;
 }
 
@@ -180,11 +187,12 @@ body.dark-mode #projects {
     line-height: 100px;
     background-color: inherit;
 }
-#profile img
-{
-    width:90px;
-    height:90px;
+
+#profile img {
+    width: 100px;
+    height: 100px;
 }
+
 body.profile-link {
     font-size: 21px;
     text-align: center;

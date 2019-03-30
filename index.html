@@ -1,57 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/script.js"></script>
-</head>
-<body class="dark-mode" id ="cls">
-<button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button>
-<img class="logo" src="img/fancypixel.jpg" alt="a pixel logo" height="100" width="100">
-<header>
-    <h1>Mostafa A. Mohamed</h1>
-    <p>Computer Science Student/Junior Front-End Developer</p>
-    <hr>
-    <img class="mainimg" src="img/sidepic.jpg" alt="a picture of Mostafa Anwar" height="1280" width="960">
-</header>
-
-
-<h2>Featured Work</h2>
-<div id="projects">
-    <a href="https://mostafaanwar.github.io/pokemonduel/" target="_blank" class="project project-tile">
-        <img class="project-pic" src="img/pokemon.jpg" alt="project">
-        <div class="project-title">Pokemon Duel</div>
-    </a>
-    <a href="https://codepen.io/mostafa_anwar/pen/OwYGpN" target="_blank" class="project project-tile">
-        <img class="project-pic" src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="project">
-        <div class="project-title">Tribute Page</div>
-    </a>
-    <a href="https://codepen.io/mostafa_anwar/pen/PdQEVo" target="_blank" class="project project-tile">
-        <img class="project-pic" src="https://i.gyazo.com/8fb8c8c243adfd23c0ecd9f16f12d440.png" alt="project">
-        <div class="project-title">Visitor Counter</div>
-    </a>
-    <a href="https://github.com/MostafAanwar/DogYears" target="_blank" class="project project-tile">
-        <img class="project-pic" src="https://s3.amazonaws.com/codecademy-content/projects/project_thumbnails/introduction-to-javascript/img_JS_dogYears.jpg" alt="project">
-        <div class="project-title">Dog Years</div>
-    </a>
-    <a href="https://github.com/MostafAanwar/MagicEightBall" target="_blank" class="project project-tile">
-        <img class="project-pic" src="https://s3.amazonaws.com/codecademy-content/projects/project_thumbnails/introduction-to-javascript/img_JS_magic8Ball.jpg" alt="project">
-        <div class="project-title">Magic 8 Ball</div>
-    </a>
-    <a href="https://codepen.io/mostafa_anwar/pen/qJReBK?editors=1100" target="_blank" class="project project-tile">
-        <img class="project-pic" src="img/search.png" alt="project">
-        <div class="project-title">Dynamic Search Button</div>
-    </a>
-</div>
-<hr>
-<footer>
-    <div id="profile">
-        <a class="profile-link"  target="_blank" href="https://www.linkedin.com/in/mostafa-anwar/"><img id="linkedin" src="img/dark-mode-linkedin.png" ></a>
-        <a class="profile-link"  target="_blank" href="https://codepen.io/mostafa_anwar/"><img id="codepen" src="img/dark-mode-codepen.png" ></a>
-        <a class="profile-link"  target="_blank" href="https://github.com/MostafAanwar"><img id="github" src="img/dark-mode-github.png" ></a>
-    </div>
-</footer>
-</body>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <button type="button" name="dark_light" onclick="toggleDarkLight()"
+        id="btntxt"
+        title="Toggle dark/light mode">🌛</button>
+    <img class="logo" src="img/fancypixel.jpg" alt="a pixel logo"
+        height="100" width="100">
+    <header>
+        <h1>Mostafa A. Mohamed</h1>
+        <p>Computer Science Student/Junior Front-End Developer</p>
+        <hr>
+        <img class="mainimg" src="img/sidepic.jpeg" alt="a picture of Mostafa
+            Anwar">
+    </header>
+    <body class="dark-mode" id="cls">
+        <div class="aboutMe">
+            <h2>About Me</h2>
+            <p>Age : 22</p>
+            <p>Nationality: Sudanese</p>
+            <p>Studies at: Faculty of Computers and Information Cairo University</p>
+            <p>Interests: Technology, tennis, video games.</p>
+        </div>
+        <br>
+        <div id="projects">
+            <hr>
+            <h2>Featured Work</h2>
+            <a href="https://mostafaanwar.github.io/pokemonduel/"
+                target="_blank" class="project project-tile">
+                <img class="project-pic" src="img/pokemon.jpg" alt="project">
+                <div class="project-title">Pokemon Duel</div>
+            </a>
+            <a href="https://codepen.io/mostafa_anwar/pen/OwYGpN"
+                target="_blank" class="project project-tile">
+                <img class="project-pic"
+                    src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png"
+                    alt="project">
+                <div class="project-title">Tribute Page</div>
+            </a>
+            <a href="https://codepen.io/mostafa_anwar/pen/PdQEVo"
+                target="_blank" class="project project-tile">
+                <img class="project-pic"
+                    src="https://i.gyazo.com/8fb8c8c243adfd23c0ecd9f16f12d440.png"
+                    alt="project">
+                <div class="project-title">Visitor Counter</div>
+            </a>
+            <a href="https://github.com/MostafAanwar/DogYears" target="_blank"
+                class="project project-tile">
+                <img class="project-pic"
+                    src="https://s3.amazonaws.com/codecademy-content/projects/project_thumbnails/introduction-to-javascript/img_JS_dogYears.jpg"
+                    alt="project">
+                <div class="project-title">Dog Years</div>
+            </a>
+            <a href="https://github.com/MostafAanwar/MagicEightBall"
+                target="_blank" class="project project-tile">
+                <img class="project-pic"
+                    src="https://s3.amazonaws.com/codecademy-content/projects/project_thumbnails/introduction-to-javascript/img_JS_magic8Ball.jpg"
+                    alt="project">
+                <div class="project-title">Magic 8 Ball</div>
+            </a>
+            <a href="https://codepen.io/mostafa_anwar/pen/qJReBK?editors=1100"
+                target="_blank" class="project project-tile">
+                <img class="project-pic" src="img/search.png" alt="project">
+                <div class="project-title">Dynamic Search Button</div>
+            </a>
+        </div>
+        <hr>
+        <footer>
+            <div id="profile">
+                <a class="profile-link" target="_blank"
+                    href="https://www.linkedin.com/in/mostafa-anwar/"><img
+                        id="linkedin" src="img/dark-mode-linkedin.png"></a>
+                <a class="profile-link" target="_blank"
+                    href="https://codepen.io/mostafa_anwar/"><img id="codepen"
+                        src="img/dark-mode-codepen.png"></a>
+                <a class="profile-link" target="_blank"
+                    href="https://github.com/MostafAanwar"><img id="github"
+                        src="img/dark-mode-github.png"></a>
+            </div>
+        </footer>
+    </body>
 </html>
